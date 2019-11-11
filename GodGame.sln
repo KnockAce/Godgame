@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29230.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GodGame", "GodGame\GodGame.csproj", "{347C13B1-EA5B-45A4-81A1-C6EC1D091A15}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{347C13B1-EA5B-45A4-81A1-C6EC1D091A15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{347C13B1-EA5B-45A4-81A1-C6EC1D091A15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{347C13B1-EA5B-45A4-81A1-C6EC1D091A15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{347C13B1-EA5B-45A4-81A1-C6EC1D091A15}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {097AF6E3-47E9-4EB3-AE8A-2065BFE99A43}
+	EndGlobalSection
+EndGlobal

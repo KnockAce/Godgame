@@ -26,6 +26,11 @@ namespace GodGame
             m_nombreParents = p_nombreParents;
         }
 
+        public static void tuer(EtreVivant p_etreVivant)
+        {
+            p_etreVivant.m_etat = false;
+        }
+
         public abstract void Deplace();
 
 

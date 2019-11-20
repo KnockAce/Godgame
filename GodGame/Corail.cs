@@ -6,7 +6,7 @@ namespace GodGame
 {
     public class Corail : EtreVivant
     {
-        public Corail(string p_nom, byte p_nombreParents, Regne p_regne, GenreVivant p_genreVivant, string p_sexe) :
+        public Corail(string p_nom, byte p_nombreParents, string p_sexe) :
             base(p_nom, p_nombreParents, Regne.Animal, GenreVivant.EucaryotesMulticellulaires, p_sexe)
         {
         }

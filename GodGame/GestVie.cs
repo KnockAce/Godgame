@@ -14,7 +14,7 @@ namespace GodGame
         /// <param name="p_listEtreVivant">La liste d'êtres vivants à animer</param>
         public GestVie(List<T> p_listEtreVivant)
         {
-
+            m_listEtreVivant = p_listEtreVivant;
         }
     }
 }

@@ -26,6 +26,10 @@ namespace GodGame
             m_nombreParents = p_nombreParents;
         }
 
+        /// <summary>
+        /// Tue l'être vivant passé en paramètre, en mettant son état à false
+        /// </summary>
+        /// <param name="p_etreVivant">L'être vivant à tuer</param>
         public static void tuer(EtreVivant p_etreVivant)
         {
             p_etreVivant.m_etat = false;

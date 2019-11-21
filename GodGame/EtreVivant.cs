@@ -8,6 +8,10 @@ namespace GodGame
     {
 
         #region Attributs
+        protected static string[] nomEtreVivantMasculin = {"Marshall","Toto","Titi","Robert",
+            "Jean-luc","Leo","Arthur"};
+        protected static string[] nomEtreVivantFeminin = {"Julia", "Julie","Juliano","Virginie",
+        "Cornellia","Elisa","Chouquette"};
         protected readonly String m_nom;
         protected byte m_nombreParents;
         protected bool m_etat; //Mort = false, Vivant = true
